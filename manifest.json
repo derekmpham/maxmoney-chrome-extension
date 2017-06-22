@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "MaxMoney Sneaker Resell Plugin",
+  "description": "This extension will suggest a resell price for a given sneaker",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
